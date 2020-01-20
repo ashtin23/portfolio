@@ -31,6 +31,16 @@ class Projects extends Component {
                             <a href="https://github.com/ashtin23/productivity-app">GitHub Repository</a>
                         </CardActions>
                     </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/cK37t9W.png) center / cover'}}>
+                        </CardTitle>
+                        <CardActions>
+                            <a href="http://bitcoin-prices.surge.sh/">Deployed App</a>
+                        </CardActions>
+                        <CardActions border>
+                            <a href="https://github.com/ashtin23/bitcoin">GitHub Repository</a>
+                        </CardActions>
+                    </Card>
                 </div>
                 
             )
