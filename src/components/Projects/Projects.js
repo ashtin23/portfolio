@@ -44,6 +44,21 @@ class Projects extends Component {
                 </div>
                 
             )
+        } else if(this.state.activeTab === 1) {
+            return(
+                <div className="projects-grid">
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/Dw8tDTc.png) center / cover'}}>
+                        </CardTitle>
+                        <CardActions>
+                            <a href="https://ashtin23.github.io/snake_p5js/">Deployed App</a>
+                        </CardActions>
+                        <CardActions border>
+                            <a href="https://github.com/ashtin23/snake_p5js">GitHub Repository</a>
+                        </CardActions>
+                    </Card>
+                </div>
+            )
         }
     }
 
@@ -53,8 +68,10 @@ class Projects extends Component {
         return(
             <div className='category-tabs'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
+                    <Tab>React.js</Tab>
+                    <Tab>P5.js</Tab>
                 </Tabs>
+                
                     <Grid>
                         <Cell col={12}>
                             <div className="content">{this.toggleCategories()}</div>
