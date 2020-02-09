@@ -12,23 +12,13 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/LFQFv7b.png) center / cover'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/BGmMNWq.png) center / cover'}}>
                         </CardTitle>
                         <CardActions>
-                            <a href="http://arl_robofriends.surge.sh/">Deployed App</a>
+                            <a href="https://alatting-e-commerce.herokuapp.com/">Deployed App</a>
                         </CardActions>
                         <CardActions border>
-                            <a href="https://github.com/ashtin23/robot_react_app">GitHub Repository</a>
-                        </CardActions>
-                    </Card>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/IGuqqd9.png) center / cover'}}>
-                        </CardTitle>
-                        <CardActions>
-                            <a href="http://productivity-app.surge.sh/">Deployed App</a>
-                        </CardActions>
-                        <CardActions border>
-                            <a href="https://github.com/ashtin23/productivity-app">GitHub Repository</a>
+                            <a href="https://github.com/ashtin23/e-commerce-site">GitHub Repository</a>
                         </CardActions>
                     </Card>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -41,6 +31,26 @@ class Projects extends Component {
                             <a href="https://github.com/ashtin23/bitcoin">GitHub Repository</a>
                         </CardActions>
                     </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/IGuqqd9.png) center / cover'}}>
+                        </CardTitle>
+                        <CardActions>
+                            <a href="http://productivity-app.surge.sh/">Deployed App</a>
+                        </CardActions>
+                        <CardActions border>
+                            <a href="https://github.com/ashtin23/productivity-app">GitHub Repository</a>
+                        </CardActions>
+                    </Card>
+                    {/* <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/LFQFv7b.png) center / cover'}}>
+                        </CardTitle>
+                        <CardActions>
+                            <a href="http://arl_robofriends.surge.sh/">Deployed App</a>
+                        </CardActions>
+                        <CardActions border>
+                            <a href="https://github.com/ashtin23/robot_react_app">GitHub Repository</a>
+                        </CardActions>
+                    </Card> */}
                 </div>
                 
             )
